@@ -1,0 +1,52 @@
+
+-----------------------------------------------------------------------
+-                        Blocks that Fall                             -
+-                           CHANGELOG                                 -
+-----------------------------------------------------------------------
+
+
+v1.5 (08-Jul-2007)
+ * Replaced sce* file i/o with Posix functions as sce* file i/o
+   doesn't seem to work in kernel mode.
+ * The hi score is saved only if the player has achieved a new
+   hi score.
+ * Cleaned up the code, and added comments.
+ * Released Blocks that Fall as GPL open source.
+
+v1.4 (29-Jun-2007)
+ * Optimized and fixed drawing.
+ * After a while of playing the game would slow down.
+ * The blocks drop now even faster after every new gained level.
+ * Increased the block speed when move keys are pressed down.
+
+v1.3 (23-May-2007)
+ * The blocks drop now faster after every new gained level.
+ * For each full row one five intercontinental ballistic rockets are
+   launched in the background.
+ * Square and circle buttons now rotate the playfield around the x
+   axis, not around the y axis, as it was pretty useless.
+ * All blocks are now 3D, so rotating the playfield works better.
+ * Moved the preview block a little closer to the playfield.
+ * The game is now compiled with -O0 as -O2 can create GFX glitches.
+
+v1.2 (19-May-2007)
+ * Compressed the tile texture using inflateTT-MP v1.2.
+ * The background color becomes brighter when you get a new hi score.
+ * Added icon and background that are shown in the PSP game menu.
+ * Added SFX (press select to toggle SFX and MP3 on and off).
+
+v1.1 (14-May-2007)
+ * Random number generator is reseeded every time a new game begins.
+ * The screen doesn't blink when a new game begins.
+ * The block moves also by keeping the left or right key pressed.
+ * Added HI SCORE, and HI SCORE is saved to memory stick.
+ * Made the preview block rotate faster, and made it to throb.
+ * PSP isn't overclocked to 333MHz any more as this game doesn't need
+   the extra juice.
+ * The shoulder buttons, square and circle rotate the playfield
+   for extra challenge (triangle resets the rotation).
+ * Zoomed out the playfield just a little.
+ * Added PAUSE and PRESS START texts.
+
+v1.0 (13-May-2007)
+ * The initial release.

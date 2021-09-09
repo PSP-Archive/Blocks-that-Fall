@@ -1,0 +1,54 @@
+
+-----------------------------------------------------------------------
+-                        Blocks that Fall                             -
+-                             README                                  -
+-               Programmed by Ville Helin in 2007                     -
+-----------------------------------------------------------------------
+
+
+1. DESCRIPTION
+
+Here is yet another game like Tetris - Blocks that Fall! Don't expect
+too much from it, as the purpose of this game was to check out the
+PSP homebrew devkit from PS2DEV.ORG. :)
+
+
+2. USAGE
+
+Firmware 1.5: Copy both folders to your memory card's /PSP/GAME150/. If
+you want to add music to the game, put "music.mp3" to the "blocksThatFall"
+directory.
+
+Firmware 1.0: Copy EBOOT.PBP to /PSP/GAME, I guess.
+
+Press start to start the game, and pause it. Press down to quick drop
+the block. X rotates the block. Press select to toggle SFX and music
+on and off.
+
+The shoulder, square and circle buttons rotate the view for extra
+challenge. Triangle button resets the view rotation.
+
+
+3. CONTACT
+
+If you have any questions, feel free to contact me at
+vhelin?iki.fi. Feature requests are also welcome.
+
+
+4. THANKS
+
+Thanks to the FreqMan and scarbelly25 of the Freesound Project for the SFX.
+Thanks to Jesper Svennevid and mr. X (?) for the sources found in the common
+directory (borrowed them from PS2DEV.ORG's PSP devkit).
+
+
+5. LEGAL STUFF
+
+You use this on your own risk. I don't take responsibility for anything.
+
+Blocks that Fall is released under the GPL license. See the file LICENSE
+for more information about the license.
+
+The source files found in the common directory are not part of this
+archive. They are taken from the example projects of PS2DEV.ORG's PSP devkit.
+See PS2DEV.ORG's PSP devkit for further informaton about that.
